@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: wheat;
+  /* position: static; */
+  /* padding: 10px 0; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav img {
+  max-width: 90px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+.first-section {
+  background-image: url("images/Object.png");
+  width: 1440px;
+  height: 1093px;
+  gap: 0px;
+  opacity: 0px;
+  background-size: cover;
+}
+.school {
+  text-align: center;
+  margin-top: 100px;
+}
+.school h1 {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.school span {
+  padding: 10px 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.school button {
+  margin-top: 30px;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: center;
+  background-color: violet;
+  border-radius: 3px;
+}
+.school button:hover {
+  color: #ffffff;
+  background-color: wheat;
+}
+.img-container h2 {
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: center;
+}
+.img-container h2 span {
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: center;
+  color: violet;
+}
+.pros-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+  padding: 20px 30px;
+}
+.profile img {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image fits inside the circle */
+}
+
+.profile {
+  text-align: center;
+  color: #ffffff;
+}
+.hero {
+  width: 1440px;
+  height: 392px;
+  top: 1093px;
+  left: -1px;
+  gap: 0px;
+  opacity: 0px;
+  background: #c271ff;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.tutorial-text h2 {
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.tutorial-text h2 span {
+  color: violet;
+}
+.tutorial-section-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.tutorial-section-container div {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.tutorial-section-container img {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.tutorial-section-container h3 {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+.tutorial-section-container p {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.tutorial-section-container div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.tutorial-section-container h4 {
+  font-size: 1em;
+  font-weight: bold;
+  color: violet;
+}
+
+.tutorial-section-container div > div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+/* footer */
+footer {
+  background-color: #333; /* Dark background color */
+  color: white; /* White text color */
+  text-align: center; /* Center text */
+  padding: 20px; /* Padding around the footer */
+  position: relative; /* Positioning context for child elements */
+  bottom: 0; /* Stick to the bottom */
+  width: 100%; /* Full width */
+}
+.footer-content {
+  max-width: 1200px; /* Limit width */
+  margin: 0 auto; /* Center content */
+}
+.social-icons {
+  margin-top: 10px; /* Space above icons */
+}
+.social-icons a {
+  color: white; /* White icons */
+  margin: 0 10px; /* Space between icons */
+  text-decoration: none; /* No underline on links */
+  font-size: 20px; /* Icon size */
+}
+.social-icons a:hover {
+  color: #ff4081; /* Change color on hover */
+}
+/* faq */
+.faq h2 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #333; /* Dark color for the title */
+  margin-bottom: 40px;
+  letter-spacing: 3px; /* Adding letter spacing for stylized effect */
+  text-align: center;
+}
+
+/* FAQ Container */
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual FAQ Item */
+.faq-item {
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Darker color for questions */
+  margin-bottom: 10px;
+}
+.faq-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666; /* Lighter gray for answers */
+}
+
+.membership {
+  padding: 60px 20px;
+  background-color: #0c1821; /* Dark background color */
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.membership h2 .highlight {
+  color: #a64af8; /* Purple color for "Free" */
+}
+
+/* Benefits Container */
+.benefits-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefit .icon {
+  font-size: 48px;
+  color: #a64af8; /* Purple color for icons */
+  display: block;
+  margin-bottom: 15px;
+}
+
+.benefit h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.benefit p {
+  font-size: 14px;
+  color: #c0c0c0; /* Lighter gray for paragraph text */
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 30px;
+  background-color: #a64af8;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #8b3ec1; /* Slightly darker purple on hover */
+}
+.benefit {
+  text-align: center;
+  color: #fff;
+  max-width: 200px;
+}
+
