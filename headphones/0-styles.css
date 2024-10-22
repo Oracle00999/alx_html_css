@@ -1,0 +1,295 @@
+.section-container {
+  background-image: url("./images/headphones_hero_1.jpg");
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 200px;
+  padding-top: 40px;
+}
+.links {
+  padding-top: 50px;
+  padding-left: 200px;
+}
+.links > a {
+  text-decoration: none;
+  padding: 30px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin: 5px;
+  /* margin: 0px 4px; */
+}
+.links > a:hover {
+  color: red;
+}
+.nav-text {
+  padding-top: 390px;
+  text-align: center;
+  color: white;
+}
+.nav-text > h1 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nav-text > button {
+  padding: 10px 30px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #ff6565;
+  color: white;
+  text-transform: capitalize;
+}
+.article {
+  line-height: 20px;
+}
+/* responsive display for the above section */
+@media only screen and (max-width: 600px) {
+  .section-container {
+    background-image: url("./images/headphones_hero_1.jpg");
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .logo {
+    width: 150px;
+    padding-top: 40px;
+  }
+  .links {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  .links > a {
+    text-decoration: none;
+    padding: 7px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin: 2px;
+    /* margin: 0px 4px; */
+  }
+}
+
+/* what we do section styling */
+.what-we-do-section {
+  padding-top: 170px;
+}
+.what-we-do-section > div {
+  text-align: center;
+}
+.what-we-do-section > div > h1 {
+  font-size: 40px;
+}
+.what-we-do-section > div > p {
+  padding-top: 19px;
+  line-height: 25px;
+  /* font-size: small; */
+}
+.article-container {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: 10px auto;
+}
+.single-article {
+  width: 270px;
+  /* height: 193px; */
+  text-align: center;
+}
+.single-article > span {
+  font-size: 5rem;
+  color: #ff6565;
+}
+.single-article > h1 {
+  font-weight: bold;
+  padding: 10px;
+}
+.single-article > p {
+  line-height: 20px;
+}
+/* what we do section responsive styling */
+@media only screen and (max-width: 600px) {
+  .article-container {
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 1000px; */
+    /* margin-left: 30px; */
+    padding-left: 170px;
+  }
+}
+/* our result section */
+.our-result-container {
+  background-image: url("./images/headphones_hero_2.jpg");
+  height: 650px;
+  background-size: cover;
+  color: #ffffff;
+  margin-top: 70px;
+  text-align: center;
+}
+.our-result-container > div > h1 {
+  padding-top: 150px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.our-result-container > div > p {
+  line-height: 20px;
+  padding-top: 50px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  width: 1200px;
+  margin: 10px auto;
+}
+.image-container > div {
+  background-image: url("./images/pentagone.png");
+  background-size: cover;
+  height: 190px;
+  width: 200px;
+}
+.image-container > div > h1 {
+  padding-top: 50px;
+  font-size: 40px;
+}
+.image-container > div > p {
+  padding-top: 10px;
+}
+/* result section responsive styling  */
+@media only screen and (max-width: 600px) {
+  .our-result-container {
+    background-image: url("./images/headphones_hero_2.jpg");
+    height: 1250px;
+    background-size: cover;
+    color: #ffffff;
+    margin-top: 70px;
+    text-align: center;
+  }
+  .image-container {
+    padding-top: 50px;
+    display: flexbox;
+    flex-direction: column;
+    width: 500px;
+    margin: 10px auto;
+    padding-left: 190px;
+  }
+
+  .image-container > div {
+    background-image: url("./images/pentagone.png");
+    background-size: cover;
+    height: 190px;
+    width: 200px;
+    margin: 10px;
+  }
+}
+
+/* form section  */
+.form-container {
+  width: 335px;
+  height: 375px;
+  margin: 10px auto;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.form-container > h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+form > input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+form > button {
+  margin-top: 40px;
+  text-transform: capitalize;
+  padding: 20px 35px;
+  border-radius: 10px;
+  background-color: #ff6565;
+}
+
+/* footer section */
+footer {
+  background-color: #071629;
+  width: 100%;
+  height: 249px;
+  color: white;
+  /* float: left; */
+}
+footer > div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-left: 120px;
+  /* margin: 60px 100px; */
+}
+
+footer > div > span {
+  padding-left: 550px;
+  padding-top: 20px;
+}
+
+footer > div > span > a {
+  padding: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 5px;
+}
+
+footer > div > img {
+  height: 50px;
+  padding-top: 20px;
+}
+.holberton_school-icon-ic_facebook,
+.holberton_school-icon-ic_twitter,
+.holberton_school-icon-ic_instagram {
+  font-size: 2.5rem;
+}
+
+/* responsive styling for footer   */
+@media only screen and (max-width: 600px) {
+  footer > div > img {
+    height: 25px;
+    padding-top: 20px;
+  }
+  footer > div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 50px;
+    /* margin: 60px 100px; */
+  }
+  footer > div > span {
+    padding-left: 150px;
+    padding-top: 20px;
+  }
+  .holberton_school-icon-ic_facebook,
+  .holberton_school-icon-ic_twitter,
+  .holberton_school-icon-ic_instagram {
+    font-size: 1.8rem;
+  }
+  footer > div > span > a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 5px;
+  }
+}
+
